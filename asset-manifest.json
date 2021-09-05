@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Tech-Spot-Website/static/css/main.530287db.chunk.css",
+    "main.js": "/Tech-Spot-Website/static/js/main.f21b0c0d.chunk.js",
+    "main.js.map": "/Tech-Spot-Website/static/js/main.f21b0c0d.chunk.js.map",
+    "runtime-main.js": "/Tech-Spot-Website/static/js/runtime-main.dcbf5a6b.js",
+    "runtime-main.js.map": "/Tech-Spot-Website/static/js/runtime-main.dcbf5a6b.js.map",
+    "static/css/2.818011ed.chunk.css": "/Tech-Spot-Website/static/css/2.818011ed.chunk.css",
+    "static/js/2.4c5d90b8.chunk.js": "/Tech-Spot-Website/static/js/2.4c5d90b8.chunk.js",
+    "static/js/2.4c5d90b8.chunk.js.map": "/Tech-Spot-Website/static/js/2.4c5d90b8.chunk.js.map",
+    "index.html": "/Tech-Spot-Website/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/Tech-Spot-Website/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.530287db.chunk.css.map": "/Tech-Spot-Website/static/css/main.530287db.chunk.css.map",
+    "static/js/2.4c5d90b8.chunk.js.LICENSE.txt": "/Tech-Spot-Website/static/js/2.4c5d90b8.chunk.js.LICENSE.txt",
+    "static/media/img1.a1c7490d.jpg": "/Tech-Spot-Website/static/media/img1.a1c7490d.jpg",
+    "static/media/img31.026ca8f9.jpg": "/Tech-Spot-Website/static/media/img31.026ca8f9.jpg",
+    "static/media/pic1.57d2d199.webp": "/Tech-Spot-Website/static/media/pic1.57d2d199.webp",
+    "static/media/pic2.cab0e188.gif": "/Tech-Spot-Website/static/media/pic2.cab0e188.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcbf5a6b.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.4c5d90b8.chunk.js",
+    "static/css/main.530287db.chunk.css",
+    "static/js/main.f21b0c0d.chunk.js"
+  ]
+}
