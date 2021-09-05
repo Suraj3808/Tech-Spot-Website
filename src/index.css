@@ -1,13 +1,307 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{ /*background: rgb(171, 224, 240);*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* Navbar part*/
+
+.navbar{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+}
+nav .navbar-brand{
+    font-size: 5rem;
+    color:#0c84d3;
+}
+.navbar-brand:hover{
+ transition: 3s;
+}
+nav{
+     background: rgb(224, 241, 245);
+     width: 100%;
+}
+.navbar {
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+   text-shadow: 0px 6px 10px rgb(26, 25, 25);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+.navbar a:hover{
+    color: black !important;
+}
+
+/* #main landing section*/
+
+#header{
+    width: 100%;
+    height: 75vh;
+    margin-top: 10px;
+}
+
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+}
+
+#header .brand-name{
+    color: #2699e6;
+    font-size: 4rem;
+}
+
+#header h2{
+    color: #484848;
+    font-size: 24px;
+}
+
+#header .btn-primary{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background-color:#19e0d6 ;
+   color: white;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+
+#header .btn-primary:hover{
+    background: #3498db ;
+    color: white;
+}
+.navbar-toggler{
+   color: #0c84d3;
+   font-weight: 900;
+}
+
+#header h1 .brand-name{
+    text-shadow: 0px 4px 8px black;
+}
+
+
+form label{
+  margin: 0.50rem;
+  font-size: 1.3rem;
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+form input{
+    margin-left: 0.5rem;
+    margin-top: 0.10rem;
+}
+#exampleFormControlInput1{
+    height: 5vh;
+}
+#exampleInputPassword1{
+    height: 5vh;
+}
+form > button{
+    margin-bottom: 75px;
+}
+
+/* images */
+
+
+
+/*Footer part*/
+footer {
+    margin-top: auto;
+    width: 100vw;
+    height: 5vh;
+    background-color: #E0f1f5;
+}
+footer p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    color:black;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 15px;
+    padding-top: 15px;
+}
+/*Image animation*/
+#header .animated{
+
+    animation: right-left 3s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes right-left{
+    0%{
+        transform: translateX(90px);
+    }
+      100%{
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes right-left{
+      0%{
+        transform: translateX(70px);
+    }
+      100%{
+        transform: translateX(-20px);
+    }
+}
+
+
+/* @media queries to make responsive*/
+
+/*Logo*/
+@media (max-width: 1280px) {
+    nav #logo{
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 280px){
+    nav .navbar{
+        min-height: 2rem;
+        width: 100%;
+
+    }
+ nav #logo img{
+        width: 15vw;
+        height: 5vh;
+    }
+}
+
+/* for tablet screen */
+@media only screen and (max-width: 991px) {
+    nav ul li .nav-link{
+        font-size: 20px;
+    }
+
+     #header{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 80vh;
+          text-align: center;
+         margin-bottom: 10px;
+    }
+    #header h1{
+       font-size: 30px;
+    }
+    #header .brand-name{
+        font-size: 40px;
+    }
+    #header .header-img img{
+
+        margin-top: 40px;
+        margin-bottom:10px;
+        width: 43vw;
+        height: 19vh;
+    }
+   img{
+    margin-top: 8px;
+     width: 25vw;
+     height: 15vh;
+    }
+
+   nav .navbar-brand{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        font-size: 70px;
+    }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+   }
+
+   nav #logo img{
+        width: 18vw;
+        height: 16vh;
+    }
+    footer{
+        margin-top: 35px;
+        height: 3rem;
+        font-size: 10px;
+    }
+
+    .card .card-title{
+        font-size: 13px;
+        font-weight: 900;
+
+    }
+    .card .card-text{
+        font-size: 12px;
+    }
+     .btn-primary{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* Header and images for mobile screen */
+@media (max-width : 768px){
+    nav ul li .nav-link{
+        font-size: 20px;
+    }
+     #header{
+    height: 80vh;
+    text-align: ceter;
+    margin-bottom: 10px;
+    }
+    #header h1{
+       font-size: 40px;
+    }
+    #header h1 .brand-name{
+        font-size: 60px;
+    }
+  #header .header-image img{
+    margin-top: 8px;
+     width: 35vw;
+     height: 15vh;
+    }
+
+   nav .navbar-brand{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        font-size: 35px;
+    }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+   }
+
+   nav #logo img{
+        width: 25vw;
+        height: 15vh;
+    }
+    footer{
+        height: 4rem;
+        font-size: 10px;
+    }
 }
