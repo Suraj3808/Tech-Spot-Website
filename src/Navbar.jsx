@@ -4,7 +4,7 @@ import HomeWorkTwoToneIcon from '@material-ui/icons/HomeWorkTwoTone';
 import PhonelinkSetupIcon from '@material-ui/icons/PhonelinkSetup';
 import ContactMailRoundedIcon from '@material-ui/icons/ContactMailRounded';
 import InfoRoundedIcon from '@material-ui/icons/InfoRounded';
-import logo from "../src/Images/logopic.png"
+import logo from "../src/Images/logopic.png";
 
 
 const Navbar = () => {

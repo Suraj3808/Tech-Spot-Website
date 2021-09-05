@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 
 
-
-
-
 const Contact = () => {
     const [data, setData] = useState({
         fullname: '',
