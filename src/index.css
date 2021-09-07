@@ -261,7 +261,6 @@ footer p{
         font-size: 20px;
     }
      #header{
-    height: 80vh;
     text-align: ceter;
     margin-bottom: 10px;
     }
@@ -274,7 +273,7 @@ footer p{
   #header .header-image img{
     margin-top: 8px;
      width: 35vw;
-     height: 15vh;
+     height: 10vh;
     }
 
    nav .navbar-brand{
